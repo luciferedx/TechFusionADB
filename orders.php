@@ -85,14 +85,7 @@ if ($user_id == '') {
         $orders = mergeSort($orders);
         
         // Search Function using Linear Search
-        function linearSearch($orders, $searchOrderId) {
-            foreach ($orders as $order) {
-                if ($order['id'] == $searchOrderId) {
-                    return $order;
-                }
-            }
-            return null; // Order ID not found
-        }
+        include 'algorithm/linearsearch.php';
         
         // Check if a search is performed
         if (isset($_POST['search'])) {

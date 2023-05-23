@@ -35,7 +35,7 @@ include 'components/add_cart.php';
 <body>
    
 <!-- header section starts  -->
-<?php include 'components/user_header.php'; ?>
+<?php include 'components/user_header.php'; ?> 
 <!-- header section ends -->
 <section class="category">
 <!--menu-->
