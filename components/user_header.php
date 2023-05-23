@@ -36,14 +36,14 @@
          <p class="name">Customer ID : # <?= $fetch_profile['id']; ?></p>
          <p class="name">Customer Name : <?= $fetch_profile['name']; ?></p>
          <div class="flex">
-            <a href="profile.php" class="btn" id="loginow" style="color:white">profile</a>
+            <a href="profile.php" class="btn" id="loginow" style="color:white;">profile</a>
             <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn" id="loginow" style="text-decoration:none">logout</a>
          </div>
          <?php
             }else{
          ?>
-            <p class="name">please login first!</p>
-            <a href="login.php" class="btn">login</a>
+            <p class="name">Please login first!</p>
+            <a href="login.php" class="btn" id="loginsa">login</a>
          <?php
           }
          ?>

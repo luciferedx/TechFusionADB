@@ -5,7 +5,7 @@ class Database
 
   public function __construct()
   {
-    $db_name = 'mysql:host=localhost:3307;dbname=techfusion';
+    $db_name = 'mysql:host=localhost:3306;dbname=TechFusion';
     $user_name = 'root';
     $user_password = '';
 

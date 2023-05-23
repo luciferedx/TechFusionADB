@@ -100,7 +100,7 @@ section{
 }
 
 .btn{
-   background-color: var(--yellow);
+   background-color: gray;
    color:var(--black);
 }
 
@@ -222,9 +222,9 @@ section{
 }
 
 .header .flex .profile .name{
-   font-size: 2rem;
-   color:var(--black);
-   margin-bottom: .5rem;
+   font-size: 1rem;
+   color:var(--white);
+   margin-bottom: 0rem;
 }
 
 .header .flex .profile .account{
@@ -793,10 +793,9 @@ section{
    text-decoration: underline;
 }
 #loginow{
-   background: #000;
    color: white;
-   border-radius: 1.5rem;
    text-decoration: none;
+   font-size: 1.5rem;
 }
 #in{
    color: var(--main);
@@ -880,6 +879,18 @@ section{
 
 .border-start-secondary{
    color:var(--gayjuan);
+}
+
+#loginsa{
+   font-size: 1.5rem;
+   color:white;
+}
+#pro{
+   border: none;
+   width: 150px;
+   height: 80px;
+   text-align: center;
+   background-color: rgba(0, 0, 0,0.5);
 }
 
 /* media queries  */
