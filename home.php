@@ -176,10 +176,10 @@ include 'components/add_cart.php';
 }
 
 #loginow{
-   margin-top: 1rem;
+   margin-top: 0px;
    display: inline-block;
-   font-size: 2rem;
-   padding:1rem 3rem;
+   font-size: 1.5rem;
+   padding:1rem 1rem;
    cursor: pointer;
    text-transform: capitalize;
    transition: .2s linear;
@@ -305,7 +305,7 @@ html{
 
             <div class="row g-4 mb-4">
               <div class="col-sm-6">
-                <div class="d-flex align-items-center border-start border-5 border-secondary px-3">
+                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
                   <h1 class="flex-shrink-0 display-5 mb-0" data-toggle="counter-up">8</h1>
                   <div class="ps-4">
                     <p class="mb-0">Years of</p>
@@ -314,7 +314,7 @@ html{
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="d-flex align-items-center border-start border-5 border-secondary px-3">
+                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
                   <h1 class="flex-shrink-0 display-5 mb-0" data-toggle="counter-up">4</h1>
                   <div class="ps-4">
                     <p class="mb-0">Popular</p>
