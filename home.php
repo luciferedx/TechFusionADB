@@ -268,11 +268,11 @@ html{
  <!-- About Us -->
  <div id="about" class="container-xxl py-5">
     <div class="container">
-      <div class="row g-5 align-items-ceneter">
+      <div class="row g-5 align-items-center">
         <div class="col-lg-6">
           <div class="row g-3">
             <div class="col-6 text-end">
-              <img src="images/PC1.png" alt="" class="img-fluid rounded w-75">
+              <img src="images/PC1.png" alt="" class="img-fluid rounded w-75" style="margin-top: 17%;">
             </div>
             <div class="col-6 text-start">
               <img src="images/PC2.webp" alt="" class="img-fluid rounded w-75" style="margin-top: 17%;">
