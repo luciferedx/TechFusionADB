@@ -78,7 +78,7 @@ include 'components/add_cart.php';
 
       <?php
 
-         $select_products = $conn->prepare("SELECT * FROM products where category = 'cpu'");
+         $select_products = $conn->prepare("SELECT * FROM cpu_products");
 
 
          $select_products->execute();
@@ -116,7 +116,7 @@ include 'components/add_cart.php';
 
       <?php
 
-         $select_products = $conn->prepare("SELECT * FROM products where category = 'motherboard'");
+         $select_products = $conn->prepare("SELECT * FROM motherboard_products");
 
 
          $select_products->execute();
@@ -153,7 +153,7 @@ include 'components/add_cart.php';
 <!--Product fetching-->
       <?php
       
-         $select_products = $conn->prepare("SELECT * FROM products where category = 'ram'");
+         $select_products = $conn->prepare("SELECT * FROM ram_products");
 
 
          $select_products->execute();
@@ -189,7 +189,7 @@ include 'components/add_cart.php';
 
    <?php
 
-      $select_products = $conn->prepare("SELECT * FROM products where category = 'others'");
+      $select_products = $conn->prepare("SELECT * FROM others_products");
 
 
       $select_products->execute();

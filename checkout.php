@@ -84,7 +84,7 @@ include 'components/checkout_func.php';
       <p><i class="fas fa-envelope"></i><span><?= $fetch_profile['email'] ?></span></p>
       <h3>Delivery Address</h3>
       <p><i class="fas fa-map-marker-alt"></i><span><?php if($fetch_profile['address'] == ''){echo 'please enter your address';}else{echo $fetch_profile['address'];} ?></span></p>
-      <a href="update_address.php" class="btn" id="loginow" style="color:yellow">update address</a>
+      <a href="update_address.php" class="btn" id="loginow" style="color:black">update address</a>
       <select name="method" class="box" required>
          <option value="" disabled selected>-- select payment method --</option>
          <option value="cash on delivery">Cash on Delivery</option>
@@ -92,7 +92,7 @@ include 'components/checkout_func.php';
          <option value="" disabled selected id="i">Credit/Debit Card (not yet available)</option>
          <option value="" disabled selected>-- select payment method --</option>
       </select>
-      <input type="submit" value="place order" class="btn <?php if($fetch_profile['address'] == ''){echo 'disabled';} ?>" name="submit" id="loginow" style="color:white">
+      <input type="submit" value="place order" class="btn <?php if($fetch_profile['address'] == ''){echo 'disabled';} ?>" name="submit" id="placeOrder">
    </div>
 
 </form>
